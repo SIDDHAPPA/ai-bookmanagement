@@ -148,6 +148,7 @@ No local model download required
 Create a .env file using the example below:
 
 DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/books
+
 JWT_SECRET=supersecretkey
 
 OPENROUTER_API_KEY=your_openrouter_key
