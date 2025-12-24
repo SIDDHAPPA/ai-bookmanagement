@@ -1,0 +1,26 @@
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+python-jose
+
+# Password hashing (Argon2)
+passlib[argon2]
+
+# Pydantic v2
+pydantic>=2.0
+pydantic-settings
+
+# LangChain
+langchain>=0.2.0
+langchain-openai>=0.1.7
+langchain-core>=0.2.0
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+aiosqlite
+boto3
+python-multipart
+PyPDF2
