@@ -42,21 +42,19 @@ Client (Swagger / REST)
         |
  OpenRouter (Llama-3-8B)
 
- Tech Stack
-Layer	Technology
-Backend	FastAPI (Python 3.11)
-Database	PostgreSQL (asyncpg)
-ORM	SQLAlchemy (async)
-Authentication	JWT (OAuth2 Password Flow)
-Password Hashing	Argon2 (OWASP recommended)
-AI / LLM	OpenRouter (Llama-3-8B)
-Storage	DigitalOcean Spaces (S3 compatible)
-Containerization	Docker & Docker Compose
-Testing	Pytest, pytest-asyncio
-CI/CD	GitHub Actions
+Tech Stack
+
+Backend: FastAPI (Python 3.11)
+Database: PostgreSQL (asyncpg)
+ORM: SQLAlchemy (async)
+Authentication: JWT (OAuth2 Password Flow)
+AI / LLM: OpenRouter (Llama-3-8B)
+Storage: DigitalOcean Spaces (S3 compatible)
+Containerization: Docker & Docker Compose
+Testing: Pytest, pytest-asyncio
 
 
- Authentication Flow
+Authentication Flow
 
 Register
 
