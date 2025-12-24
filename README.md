@@ -54,38 +54,7 @@ Storage	DigitalOcean Spaces (S3 compatible)
 Containerization	Docker & Docker Compose
 Testing	Pytest, pytest-asyncio
 CI/CD	GitHub Actions
- Project Structure
-ai-book-management/
-│
-├── app/
-│   ├── main.py
-│   ├── config.py
-│   ├── database.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── auth.py
-│   ├── security.py
-│   │
-│   ├── services/
-│   │   ├── llm_client.py
-│   │   ├── storage.py
-│   │   └── text_extractor.py
-│   │
-│   └── routes/
-│       ├── auth.py
-│       ├── books.py
-│       ├── recommendations.py
-│       └── ai.py
-│
-├── tests/
-│   ├── unit/
-│   
-│
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── .env.example
-└── README.md
+
 
  Authentication Flow
 
